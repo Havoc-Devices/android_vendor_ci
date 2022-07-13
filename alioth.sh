@@ -1,6 +1,6 @@
 rm -rf hardware/qcom-caf/sm8250/audio hardware/qcom-caf/sm8250/display hardware/qcom-caf/sm8250/media hardware/xiaomi vendor/qcom/opensource/usb external/ant-wireless/antradio-library packages/resources/devicesettings vendor/nxp/opensource/commonsys/packages/apps/Nfc
 
-git clone https://github.com/Havoc-Devices/android_device_xiaomi_alioth-1 device/xiaomi/alioth
+git clone https://github.com/Havoc-Devices/android_device_xiaomi_alioth -b twelve device/xiaomi/alioth
 git clone https://github.com/Havoc-Devices/android_device_xiaomi_sm8250-common device/xiaomi/sm8250-common
 git clone https://github.com/Havoc-Devices/android_vendor_alioth vendor/xiaomi/alioth
 git clone https://github.com/Havoc-Devices/android_vendor_xiaomi_sm8250-common vendor/xiaomi/sm8250-common
