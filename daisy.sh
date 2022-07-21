@@ -38,4 +38,7 @@ git clone https://github.com/Havoc-Devices/android_packages_resources_devicesett
 rm -rf vendor/havoc/libbfqio
 git clone https://github.com/Havoc-Devices/vendor_libbfqio_daisy.git vendor/havoc/libbfqio
 
-export build_type='userdebug'
+# Vendor
+
+rm -rf vendor/xiaomi
+git clone git@github.com:Havoc-Devices/android_vendor_xiaomi_daisy.git -b twelve vendor/xiaomi
